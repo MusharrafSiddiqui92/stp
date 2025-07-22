@@ -14,7 +14,7 @@ const Explore = () => {
                         <p className="card-text">
                             Top phones from Apple,Samsung,Xiomi,Oppo and much more.
                         </p>
-                        <a href="#" className="btn btn-outline-primary rounded-0" onClick={() => navigate('/mobile')}>
+                        <a href="#" className="btn btn-outline-primary rounded-0" onClick={() => navigate('/mobiles')}>
                             Go To Products
                         </a>
                     </div>
