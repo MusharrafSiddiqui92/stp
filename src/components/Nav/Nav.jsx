@@ -7,7 +7,7 @@ const Nav = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg sticky-top text-white bg-primary">
-        <div className="container-fluid " style={{ padding: '0', height: '15px' }}>
+        <div className="container-fluid " style={{ padding: '0', height: '35px' }}>
 
           <button
             className="navbar-toggler "
@@ -24,29 +24,29 @@ const Nav = () => {
             <ul className="navbar-nav w-100 justify-content-center gap-4 pt-1">
               <li className="nav-item">
                 <Link to="/">
-                  <a className="nav-link active text-white" aria-current="page" href="#">
+                  <a className="nav-link active" aria-current="page" href="#" style={{fontWeight:'bolder'}}>
                     Home
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active text-white" href="#" onClick={() => navigate('/gadgets')}>
+                <a className="nav-link active " href="#" onClick={() => navigate('/gadgets')}  style={{fontWeight:'bolder'}}>
                   Gadgets
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active text-white" href="#" onClick={() => navigate('/peripheral')}>
+                <a className="nav-link active " href="#" onClick={() => navigate('/peripheral')}  style={{fontWeight:'bolder'}}>
                   Peripheral
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link active text-white" href="#" onClick={() => navigate('/mobiles')}>
+                <a className="nav-link active " href="#" onClick={() => navigate('/mobiles')}  style={{fontWeight:'bolder'}}>
                   Mobiles
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active text-white" href="https://wa.me/+923463825908" target='_blank'>
+                <a className="nav-link active" href="https://wa.me/+923463825908" target='_blank'  style={{fontWeight:'bolder'}}>
                   Contact
                 </a>
               </li>
